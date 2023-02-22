@@ -1,0 +1,33 @@
+{
+    "name": "meraki/http-server",
+    "type": "library",
+    "require": {
+        "psr/http-message": "^1.0",
+        "psr/http-server-middleware": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "psr/http-factory": "^1.0"
+    },
+    "require-dev": {
+        "laminas/laminas-diactoros": "^2.24",
+        "narrowspark/http-emitter": "^2.0",
+        "chubbyphp/chubbyphp-static-file": "^1.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Meraki\\Http\\": "src/"
+        }
+    },
+	"autoload-dev": {
+		"psr-4": {
+			"Meraki\\Http\\": "tests/",
+			"Meraki\\Http\\Example\\": "examples/"
+		}
+	},
+    "authors": [
+        {
+            "name": "Nathan Bishop",
+            "email": "nbish11@hotmail.com"
+        }
+    ]
+}
